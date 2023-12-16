@@ -9,3 +9,4 @@ This is a monorepo containing my solutions to LeetCode problems written in vario
 ## List of Problems/Solutions
 
 - 1 - Two Sum - [Notes](notes/0001_two_sum.md) | [Elixir](elixir/lib/solutions/0001_two_sum/two_sum.ex) | [Ruby](ruby/lib/solutions/0001_two_sum/two_sum.rb)
+- 217 - Contains Duplicate - [Notes](notes/0217_contains_duplicate.md) | [Elixir](elixir/lib/solutions/0217_contains_duplicate/contains_duplicate.ex) | [Ruby](ruby/lib/solutions/0217_contains_duplicate/contains_duplicate.rb)

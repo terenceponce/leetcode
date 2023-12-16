@@ -1,7 +1,7 @@
 # Leet Code - Elixir
 
-![elixir ci](https://github.com/terenceponce/leetcode/actions/workflows/elixir_ci.yml/badge.svg)
-[![codecov](https://codecov.io/gh/terenceponce/leetcode/graph/badge.svg?token=i7gC0Uuurl&flag=elixir)](https://codecov.io/gh/terenceponce/leetcode)
+[![elixir ci](https://github.com/terenceponce/leetcode/actions/workflows/elixir_ci.yml/badge.svg)](https://github.com/terenceponce/leetcode/actions/workflows/elixir_ci.yml)
+[![codecov elixir](https://codecov.io/gh/terenceponce/leetcode/graph/badge.svg?token=i7gC0Uuurl&flag=elixir)](https://codecov.io/gh/terenceponce/leetcode)
 
 These are my solutions to LeetCode problems written in Elixir.
 

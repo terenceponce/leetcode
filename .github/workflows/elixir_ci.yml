@@ -2,8 +2,8 @@ name: Elixir CI
 
 on:
   push:
-    paths:
-      - "elixir/**"
+    branches:
+      - main
   pull_request:
     paths:
       - "elixir/**"

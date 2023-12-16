@@ -31,7 +31,7 @@ defmodule LeetCode.MixProject do
   defp deps do
     [
       {:credo, "1.7.0", only: [:dev, :test], runtime: false},
-      {:excoveralls, "0.18.0", only: :test},
+      {:excoveralls, "0.18.0", only: :test}
     ]
   end
 

@@ -1,0 +1,42 @@
+name: Ruby CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "ruby/**"
+
+jobs:
+  test:
+    name: Lint and Test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ruby
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.2'
+          bundler-cache: true
+
+      - name: Install Dependencies
+        run: bundle
+
+      - name: Run Rubocop
+        run: bundle exec rubocop
+
+      - name: Run Test
+        run: bundle exec rake
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./ruby/coverage/coverage.xml
+          flags: ruby

@@ -3,10 +3,10 @@ name: Elixir CI
 on:
   push:
     paths:
-      - elixir
+      - "elixir/**"
   pull_request:
     paths:
-      - elixir
+      - "elixir/**"
 
 env:
   MIX_ENV: test

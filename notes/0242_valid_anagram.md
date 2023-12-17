@@ -2,6 +2,11 @@
 
 **Link to Problem**: https://leetcode.com/problems/valid-anagram
 
+## Solutions
+
+- [Elixir](../elixir/lib/solutions/0242_valid_anagram/valid_anagram.ex)
+- [Ruby](../ruby/lib/solutions/0242_valid_anagram/valid_anagram.rb)
+
 ## Description
 
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
